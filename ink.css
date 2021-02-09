@@ -1,0 +1,70 @@
+body {
+/ * background-image: url("file:///C:/Users/Tmbello/Pictures/Saved%20Pictures/caronthehill.jpg"); */
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #222
+
+}
+
+@media screen and (max-width: 800px) { 
+h1 { 
+color: white;
+font-size: 15vw;
+font-family: Chelsea Market;
+text-align: center;
+opacity: 90%;
+}
+ h3, h5, h6 { 
+ color: #333;
+ background-color: white;
+ font-family: Chelsea Market;
+ padding: 3vw;
+ opacity: 95%;
+ text-align: center;
+}	
+.stylethis { 
+font-family: Chelsea Market;
+border-radius: 1vw;
+}
+a:hover {
+	border-radius: 1vw;
+	color:#999
+}
+}
+
+@media screen and (min-width: 800px) { 
+h1 { 
+color: white;
+font-size: 13vw;
+font-family: Chelsea Market;
+text-align: center;
+opacity: 90%;
+}
+ h3, h5, h6 { 
+ color: #333;
+ background-color: white;
+ font-family: Chelsea Market;
+ padding: 3vw;
+ margin-left: 10vw;
+  margin-right: 10vw;
+ opacity: 95%;
+ 	border-radius: 0.5vw;
+ text-align: center;
+}	
+.stylethis { 
+font-family: Chelsea Market;
+font-size: 1.5vw;
+border-radius: 1vw;
+margin: 20px;
+}
+a:hover {
+	border-radius: 1vw;
+	color:#999
+}
+
+::selection { background: #333; }
+}
+
+

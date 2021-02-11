@@ -1,5 +1,5 @@
 body {
-/ * background-image: url("file:///C:/Users/Tmbello/Pictures/Saved%20Pictures/caronthehill.jpg"); */
+background-image: url("file:///C:/Users/Tmbello/Pictures/Saved%20Pictures/school.jpg"); 
 background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,11 +10,12 @@ background-attachment: fixed;
 
 @media screen and (max-width: 800px) { 
 h1 { 
-color: white;
+color: #333;
 font-size: 15vw;
 font-family: Chelsea Market;
 text-align: center;
 opacity: 90%;
+padding: 10vw;
 }
  h3, h5, h6 { 
  color: #333;
@@ -22,6 +23,7 @@ opacity: 90%;
  font-family: Chelsea Market;
  padding: 3vw;
  opacity: 95%;
+ border-radius: 2vw;
  text-align: center;
 }	
 .stylethis { 
@@ -33,7 +35,9 @@ a:hover {
 	color:#999
 }
 }
-
+a:link {
+	color: #333;
+}
 @media screen and (min-width: 800px) { 
 h1 { 
 color: white;
